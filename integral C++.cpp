@@ -7,7 +7,7 @@ using namespace std;
 bool t = true;
 int n = 1;
 
-double  myFun(double x){                                        //variante 19  function
+double  myFun(double x){                                        //variante 19  given function
    return (x-1)* sin(x);
 }
 
