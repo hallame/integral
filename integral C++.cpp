@@ -7,7 +7,7 @@ using namespace std;
 bool t = true;
 int n = 1;
 
-double  myFun(double x){                                        //variante 19  given function
+double  myFun(double x){                                        //given function
    return (x-1)* sin(x);
 }
 
@@ -132,7 +132,7 @@ int main() {
    double a, b, intgrl;
    a = -1;
    b = 1;
-   intgrl = 0.6023373578795135;
+   intgrl = 0.6023373578795135;                                                                           // exact value of integral
    cout << "Comparison of the analytical value of the integral with approximate: " << endl;
    print(n, a, b, intgrl);
    print(2*n, a, b, intgrl);
